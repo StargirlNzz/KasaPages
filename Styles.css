@@ -1,61 +1,60 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* height: 110vh; */
-    background-color: #013220;
- }
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 110vh;
+   background-color: #013220;
+}
 
- .circle-image {
-    width: 220px;
-    height: 220px;
-    border-radius: 50%;
-    background-color: #998100;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 0;
- }
+.circle-image {
+   width: 220px;
+   height: 220px;
+   border-radius: 50%;
+   background-color: #998100;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 0;
+}
 
- .circle-image img {
-    max-width: 100%;
-    max-height: 90%;
-    margin-bottom: 15%;
- }
+.circle-image img {
+   max-width: 100%;
+   max-height: 90%;
+   margin-bottom: 15%;
+}
 
- .h1 {
-    text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    color: whitesmoke;
-    text-shadow: 2px 2px 5px #c5b358;
- }
+.h1 {
+   text-align: center;
+   margin-top: 2rem;
+   margin-bottom: 1rem;
+   color: whitesmoke;
+   text-shadow: 2px 2px 5px #c5b358;
+}
 
- .text {
-    text-align: center;
-    color: whitesmoke;
- }
+.text {
+   text-align: center;
+   color: whitesmoke;
+}
 
- .text p {
-    font-size: 130%;
- }
+.text p {
+   font-size: 130%;
+}
 
- .text button {
-    width: 70%;
-    padding: 10px;
-    border-radius: 12px;
-    border: none;
-    cursor: pointer;
-    font-size: 100%;
-    box-shadow: 3px 3px 10px #c5b358;
- }
+.text button {
+   width: 70%;
+   padding: 10px;
+   border-radius: 12px;
+   border: none;
+   cursor: pointer;
+   font-size: 100%;
+   box-shadow: 3px 3px 10px #c5b358;
+}
 
- button:hover {
-    background-color: #c5b358;
- }
+button:hover {
+   background-color: #c5b358;
+}
 
- .pnum {
-    font-size: 80%;
- }
- 
+.pnum {
+   font-size: 80%;
+}
